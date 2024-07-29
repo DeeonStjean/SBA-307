@@ -1,5 +1,0 @@
-chapter 1
-we learn about project management, were we learn stuff like scrum roles.
-there are 3 scrum roles like product owner, scrum master and scrum team.
-product owner focus on product backlog while scrum team focus on sprint backlog.
-scrum master help and defense scrum team.

@@ -1,4 +1,0 @@
-we learn about git command. stuff like git add which add the changes.
-we learn about git pull which pull from the GitHub repository. git push, push the
-changes to GitHub from local. git commit let you commit what changes you made.
-chapter 2

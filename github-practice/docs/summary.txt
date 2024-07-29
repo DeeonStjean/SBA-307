@@ -1,2 +1,0 @@
-chapter 1 is about project management
-chapter 2 is about git command
