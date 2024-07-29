@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+        table{
+            transition-duration: 3s;
+        }
+        table:hover{
+            transform:rotate(360deg);
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        img{
+            align-items: center;
+        }
+    </style>
+</head>
+<body style="background-color: #21F8FA;">
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li style="float:right"><a href="login.html">
+            <img src="./image/login-image.png" alt="Login Icon" class="login-user"/>Log In
+        </a></li>
+    </ul>
+    <h1 style="text-align: center;">Anine News</h1>
+    <table style="width:100%">
+        <tr>
+          <th>Manga</th>
+          <th>Number of Volume</th>
+          <th>Volume Sales</th>
+        </tr>
+        <tr>
+            <td>1. One Piece</td>
+            <td> 108</td>
+            <td> 1.3m</td>
+        </tr>
+        <tr>
+            <td>2. Jujutsu Kaisen</td>
+            <td> 25</td>
+            <td> 1.2m</td>
+        </tr>
+        <tr>
+            <td>3. My Hero Academia</td>
+            <td> 39</td>
+            <td> 525k</td>
+        </tr>
+        <tr>
+            <td>4. Ruri Dragon</td>
+            <td> 1</td>
+            <td> 118k</td>
+        </tr>
+        <tr>
+            <td>5. Blue Box 14</td>
+            <td> 14</td>
+            <td>115k</td>
+        </tr>
+        <tr>
+            <td>6. Black Clover</td>
+            <td>36</td>
+            <td>106K</td>
+        </tr>
+        <tr>
+            <td>7. Sakamoto Days</td>
+            <td>15</td>
+            <td>103k</td>
+        </tr>
+        <tr>
+            <td>8. Akane-banashi</td>
+            <td> 10</td>
+            <td>51k</td>
+        </tr>
+        <tr>
+            <td>9. Witch Watch</td>
+            <td> 15</td>
+            <td>44k</td>
+        </tr>
+        <tr>
+            <td>10. Jujutsu Kaisen</td>
+            <td> 14</td>
+            <td>41k</td>
+        </tr>
+    </table>
+
+    <h2 style="text-align: center;">One Piece sell the most volumes</h2>
+    <div class="container">
+        <div>
+        <img src="https://media1.tenor.com/m/ow1nQHh6XboAAAAC/luffy-gear-5.gif" alt=""></div>
+
+    </div>
+    <div>
+        <form action="#">
+            <label>Choose a car:</label>
+            <select name="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi" selected>Audi</option>
+            </select>
+          
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

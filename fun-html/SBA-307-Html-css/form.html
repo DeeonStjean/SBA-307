@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li style="float:right"><a href="login.html">
+            <img src="./image/login-image.png" alt="Login Icon" class="login-user"/>Log In
+        </a></li>
+    </ul>
+    <form action="index.html">
+        <label>Where are you in your anime jounrey:</label>
+        <select name="cars">
+          <option value="volvo">2 year</option>
+          <option value="saab">half a year</option>
+          <option value="fiat">1 months to 3month</option>
+          <option value="new" selected>New to anime</option>
+        </select>
+        <input type="submit">
+    </form>
+
+    <h2>Checkboxes</h2>
+    <form action="index.html">
+        <input type="checkbox" id="choice1" name="vehicle1" value="Manga">
+        <label for="vehicle1"> I read Manga</label><br>
+        <input type="checkbox" id="choice2" name="vehicle2" value="Anime">
+        <label for="vehicle2"> I watch anime</label><br>
+        <input type="checkbox" id="choice3" name="vehicle3" value="Both">
+        <label for="vehicle3"> I do both</label><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
